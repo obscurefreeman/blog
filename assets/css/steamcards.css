@@ -141,9 +141,9 @@ height: 188px;
 margin: 16px; */
 .news .article {
     overflow: hidden;
-    width: 350px;
-    height: 235px;
-    margin: 20px;
+    width: 280px;
+    height: 188px;
+    margin: 16px;
 }
 .news .article img {
     width: 100%;
