@@ -4,26 +4,26 @@ permalink: /
 hidden: true
 feature_row:
   - image_path: /assets/images/mm-customizable-feature.png
-    alt: "customizable"
-    title: "Super customizable"
+    alt: "博客文章"
+    title: "博客文章"
     excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
-    url: "/docs/configuration/"
+    url: "/posts/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"
+    btn_label: "了解更多"
   - image_path: /assets/images/mm-responsive-feature.png
-    alt: "fully responsive"
-    title: "Responsive layouts"
+    alt: "插件"
+    title: "插件"
     excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
-    url: "/docs/layouts/"
+    url: "/addons/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"
+    btn_label: "了解更多"
   - image_path: /assets/images/mm-free-feature.png
-    alt: "100% free"
-    title: "100% free"
+    alt: "足迹"
+    title: "足迹"
     excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
-    url: "/docs/license/"
+    url: "/memory/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"      
+    btn_label: "了解更多"      
 ---
 <body>
 <!-- <div>
@@ -46,8 +46,7 @@ feature_row:
 
 <body>
 <div class="wrapper">
-
-<h2><strong>最喜欢的游戏</strong></h2>
+<h2><strong>游戏</strong></h2>
 
 <div class="cards">
 
