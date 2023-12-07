@@ -157,7 +157,7 @@ margin: 16px; */
     left: 0;
     right: 0;
     top: 0;
-    bottom: 0;
+    bottom: 10;
     padding: 20px;
     box-shadow: 0 0 2px rgba(0,0,0,0.2);
     background: rgba(6,18,53,0.6);
