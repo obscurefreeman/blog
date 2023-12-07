@@ -1,0 +1,78 @@
+<meta charset="utf-8">
+
+{% include seo.html %}
+
+{% unless site.atom_feed.hide %}
+  <link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
+{% endunless %}
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+<link rel="stylesheet" href="assets/css/steamcards.css">
+<link rel="stylesheet" href="assets/css/randomtext.css">
+
+
+
+{% if site.head_scripts %}
+  {% for script in site.head_scripts %}
+    <script src="{{ script | relative_url }}"></script>
+  {% endfor %}
+{% endif %}
+
+<!-- <script>
+  window.Papercups = {
+    config: {
+      token: "0ea83615-f59e-4a4d-95df-baef6e365d7b",
+      inbox: "316af178-c246-43ff-b2a4-d651f5ff6696",
+      title: "欢迎来到晦涩弗里曼的博客",
+      subtitle: "你可以在这里和我聊天。",
+      primaryColor: "#699ea0",
+      greeting: "问我任何问题。",
+      awayMessage: "已收到你的留言！",
+      newMessagePlaceholder: "开始打字吧！",
+      showAgentAvailability: false,
+      agentAvailableText: "在线",
+      agentUnavailableText: "我暂时不在",
+      requireEmailUpfront: true,
+      iconVariant: "outlined",
+      baseUrl: "https://app.papercups.io"
+      // Optionally include data about your customer here to identify them
+      // customer: {
+      //   name: __CUSTOMER__.name,
+      //   email: __CUSTOMER__.email,
+      //   external_id: __CUSTOMER__.id,
+      //   metadata: {
+      //     plan: "premium"
+      //   }
+      // }
+    },
+  };
+  </script>
+  <script
+    type="text/javascript"
+    async
+    defer
+    src="https://app.papercups.io/widget.js"
+  ></script> -->
+
+<!-- 16x16 -->
+<link rel="shortcut icon" href="{{ site.url }}{{ site.baseurl }}/images/logosmall.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="{{ site.url }}{{ site.baseurl }}/images/logo.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="{{ site.url }}{{ site.baseurl }}/images/logo.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ site.url }}{{ site.baseurl }}/images/logo.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.url }}{{ site.baseurl }}/images/logolarge.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.url }}{{ site.baseurl }}/images/logolarge.png">

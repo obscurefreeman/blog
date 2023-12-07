@@ -1,0 +1,126 @@
+# main links
+main:
+  - title: "主页"
+    url: /#/
+  # - title: "关于"
+  #   url: /about/
+  # - title: "文档"
+  #   url: /docs/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
+  - title: "插件"
+    url: /addons/
+  - title: "杂谈"
+    url: /tittle-tattle/
+  - title: "足迹"
+    url: /memory/
+  - title: "维基"
+    url: https://obscurefreeman.github.io/sourcewiki/
+  - title: "视频"
+    url: https://space.bilibili.com/523837807
+
+
+docs:
+  - title: Getting Started
+    children:
+      - title: "Quick-Start Guide"
+        url: /docs/quick-start-guide/
+      - title: "Structure"
+        url: /docs/structure/
+      - title: "Installation"
+        url: /docs/installation/
+      - title: "Upgrading"
+        url: /docs/upgrading/
+
+  - title: Customization
+    children:
+      - title: "Configuration"
+        url: /docs/configuration/
+      - title: "Navigation"
+        url: /docs/navigation/
+      - title: "UI Text"
+        url: /docs/ui-text/
+      - title: "Authors"
+        url: /docs/authors/
+      - title: "Layouts"
+        url: /docs/layouts/
+
+  - title: Content
+    children:
+      - title: "Working with Posts"
+        url: /docs/posts/
+      - title: "Working with Pages"
+        url: /docs/pages/
+      - title: "Working with Collections"
+        url: /docs/collections/
+      - title: "Helpers"
+        url: /docs/helpers/
+      - title: "Utility Classes"
+        url: /docs/utility-classes/
+
+  - title: Extras
+    children:
+      - title: "Stylesheets"
+        url: /docs/stylesheets/
+      - title: "JavaScript"
+        url: /docs/javascript/
+
+tittle-tattle:
+  - title: 游戏杂谈
+    children:
+      - title: "《熵：零2》剧情解读"
+        url: /tittle-tattle/01-《熵：零2》剧情解读/
+      - title: "《傻缺大乱斗》武器秘事"
+        url: /tittle-tattle/02-《傻缺大乱斗》武器秘事/
+      - title: "《沤逆之蓝》剧情解读"
+        url: /tittle-tattle/03-《沤逆之蓝》剧情解读/
+
+# addons:
+#   - title: 我的插件
+#     children:
+#       - title: "拉姆达用户界面"
+#         url: /addons/拉姆达用户界面/
+#       - title: "晦涩弗里曼的工具箱 V2"
+#         url: /addons/晦涩弗里曼的工具箱-V2/
+#       - title: "CSGO人机"
+#         url: /addons/CSGO人机/
+#       - title: "死亡消息"
+#         url: /addons/死亡消息/
+#   - title: 我的地图
+#     children:
+#       - title: "装甲核心边境设施"
+#         url: /addons/装甲核心边境设施/
+#       - title: "酒店突袭"
+#         url: /addons/酒店突袭/
+#       - title: "光华高中周年纪念版"
+#         url: /addons/光华高中周年纪念版/
+#       - title: "怆蓝悲怀"
+#         url: /addons/怆蓝悲怀/
+#       - title: "湖畔激战"
+#         url: /addons/湖畔激战/
+
+addons:
+  - title: 我的插件
+    children:
+      - title: "拉姆达用户界面"
+        url: /addons/2023-2-3-拉姆达用户界面/
+      - title: "晦涩弗里曼的工具箱 V2"
+        url: /addons/2023-4-1-晦涩弗里曼的工具箱-V2/
+      - title: "CSGO人机"
+        url: /addons/2023-11-2-CSGO人机/
+      - title: "死亡消息"
+        url: /addons/2023-11-3-死亡消息/
+  - title: 我的地图
+    children:
+      - title: "装甲核心边境设施"
+        url: /addons/2023-1-2-装甲核心边境设施/
+      - title: "酒店突袭"
+        url: /addons/2023-3-11-酒店突袭/
+      - title: "光华高中周年纪念版"
+        url: /addons/2023-7-7-光华高中周年纪念版/
+      - title: "怆蓝悲怀"
+        url: /addons/2023-8-8-怆蓝悲怀/
+      - title: "湖畔激战"
+        url: /addons/2023-9-12-湖畔激战/
