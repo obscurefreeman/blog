@@ -80,13 +80,3 @@ feature_row:
 
 </figure>
 
-<div class="card-container">
-  <div class="card">
-    <h1><i class="fa fa-codepen" aria-hidden="true"></i>Codepen</h1>
-    <h1>2334 5467 8756 0932 1284</h1>
-    <h3>Card holder</h3>
-    <h3>Albert Feynman</h3>
-    <div class="circle"></div>
-    <div class="circle"></div>
-  </div>
-</div>
