@@ -30,9 +30,7 @@ feature_row:
 <canvas class="zdog-canvas" width="60" height="60"></canvas>
 <div class="text" id="randomText"></div>
 </div>
-<script src="assets/js/obsfm/randomtext.js"></script>
-<script src="https://unpkg.com/zdog@1/dist/zdog.dist.min.js"></script>
-<script src="assets/js/obsfm/lambdalogo.js"></script>
+
 
 
 <h2><strong>新闻</strong></h2>
