@@ -25,12 +25,7 @@ feature_row:
     btn_class: "btn--primary"
     btn_label: "了解更多"      
 ---
-<body>
-<!-- <div>
-<canvas class="zdog-canvas" width="600" height="600"></canvas>
-</div>
-<script src="https://unpkg.com/zdog@1/dist/zdog.dist.min.js"></script>
-<script src="assets/js/obsfm/largelambdalogo.js"></script> -->
+
 <div class="container">
 <canvas class="zdog-canvas" width="60" height="60"></canvas>
 <div class="text" id="randomText"></div>
@@ -38,9 +33,7 @@ feature_row:
 <script src="assets/js/obsfm/randomtext.js"></script>
 <script src="https://unpkg.com/zdog@1/dist/zdog.dist.min.js"></script>
 <script src="assets/js/obsfm/lambdalogo.js"></script>
-</body>
 
-</div>
 
 <h2><strong>新闻</strong></h2>
 
@@ -66,13 +59,10 @@ feature_row:
 </div>
 
 </div>
-</body>
 
 
 {% include feature_row %}
 
-
-<body>
 <div class="wrapper">
 <h2><strong>游戏</strong></h2>
 
