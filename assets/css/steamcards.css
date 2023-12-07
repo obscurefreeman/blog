@@ -33,7 +33,9 @@ display: none;
 .df,
 .cards,
 .news {
-display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-gap: 20px;
 }
 .dif {
 display: inline-flex;
