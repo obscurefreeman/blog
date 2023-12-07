@@ -102,4 +102,4 @@ feature_row:
     <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
   </card>
 </div>
-<script src="assets/js/obsfm/homecard.js"></script>
+
