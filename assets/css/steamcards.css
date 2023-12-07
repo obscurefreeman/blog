@@ -37,6 +37,13 @@ display: none;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   grid-gap: 20px;
 }
+
+@media (min-width: 400px) {
+  .cards,
+  .news {
+    grid-template-columns: repeat(auto-fit, minmax(144px, 1fr));
+  }
+}
 .dif {
 display: inline-flex;
 }
