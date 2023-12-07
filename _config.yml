@@ -208,6 +208,7 @@ exclude:
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
+  - /_drafts
 keep_files:
   - .git
   - .svn
