@@ -37,3 +37,11 @@
     color: '#00adb5'
   })
 </script>
+
+<script>
+  BalloonEditor
+      .create( document.querySelector( '#editor' ) )
+      .catch( error => {
+          console.error( error );
+      } );
+</script>

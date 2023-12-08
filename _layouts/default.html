@@ -28,14 +28,6 @@
       </div>
     {% endif %}
 
-    <script>
-      BalloonEditor
-          .create( document.querySelector( '#editor' ) )
-          .catch( error => {
-              console.error( error );
-          } );
-    </script>
-
     <div id="footer" class="page__footer">
       <footer>
         {% include footer/custom.html %}
