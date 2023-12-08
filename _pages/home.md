@@ -47,6 +47,7 @@ feature_row:
 
 </figure>
 
+
 <figure class="card">
 
 <img src="https://steamcdn-a.akamaihd.net/steam/apps/362890/library_600x900_2x.jpg" />
@@ -55,3 +56,31 @@ feature_row:
 
 </figure>
 
+
+<figure class="card">
+
+<img src="https://steamcdn-a.akamaihd.net/steam/apps/440/library_600x900_2x.jpg" />
+
+<figcaption>军团要塞</figcaption>
+
+</figure>
+
+</div>
+
+
+<h2><strong>模组</strong></h2>
+
+<div class="cards">
+
+<figure class="card">
+
+<img src="https://steamcdn-a.akamaihd.net/steam/apps/1583720/library_600x900_2x.jpg" />
+
+<figcaption>熵：零 2</figcaption>
+
+</figure>
+
+</div>
+
+
+</div>
