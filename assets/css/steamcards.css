@@ -71,6 +71,14 @@ transition: 0.3s;
     transform: translateZ(0);
     transition: 0.3s;
     }
+    
+@media (max-width: 767px) {
+    .news .card {
+        width: 72px;
+        height: 104px;
+        margin-bottom: 16px;
+    }
+}
 .cards .card img,
 .news .card img {
 width: 100%;
