@@ -34,180 +34,153 @@ feature_row:
 </div>
 
 
-        <div class="wrapper">
+<div class="wrapper">
 
-            <h2><strong>玩过的游戏</strong></h2>
-        
-            <figure class="card">
-        
-                <img src="https://steamcdn-a.akamaihd.net/steam/apps/420/library_600x900_2x.jpg" />
-    
-                <figcaption>半条命 2 ：第二章</figcaption>
-    
-            </figure>
+<h2><strong>玩过的游戏</strong></h2>
 
-            <div class="cards">
+<figure class="card">
 
-                <figure class="card">
-        
-                    <img src="https://steamcdn-a.akamaihd.net/steam/apps/546560/library_600x900_2x.jpg" />
-        
-                    <figcaption>半条命：爱莉克斯</figcaption>
-        
-                </figure>
+<img src="https://steamcdn-a.akamaihd.net/steam/apps/420/library_600x900_2x.jpg" />
 
-                <figure class="card">
-        
-                    <img src="https://steamcdn-a.akamaihd.net/steam/apps/220/library_600x900_2x.jpg" />
-        
-                    <figcaption>半条命 2</figcaption>
-        
-                </figure>
+<figcaption>半条命 2 ：第二章</figcaption>
 
-                <figure class="card">
-        
-                    <img src="https://steamcdn-a.akamaihd.net/steam/apps/412020/library_600x900_2x.jpg" />
-        
-                    <figcaption>地铁：离去</figcaption>
-        
-                </figure>
+</figure>
 
-                <figure class="card">
-        
-                    <img src="https://steamcdn-a.akamaihd.net/steam/apps/362890/library_600x900_2x.jpg" />
-        
-                    <figcaption>黑山：起源</figcaption>
-        
-                </figure>
-        
-                <figure class="card">
-        
-                    <img src="https://steamcdn-a.akamaihd.net/steam/apps/1583720/library_600x900_2x.jpg" />
-        
-                    <figcaption>熵：零 2</figcaption>
-        
-                </figure>
+<div class="cards">
 
-                <figure class="card">
-        
-                    <img src="https://steamcdn-a.akamaihd.net/steam/apps/41700/library_600x900_2x.jpg" />
-        
-                    <figcaption>潜行者：普里皮亚季的呼唤</figcaption>
-        
-                </figure>
+<figure class="card">
 
-                <figure class="card">
-        
-                    <img src="https://steamcdn-a.akamaihd.net/steam/apps/380/library_600x900_2x.jpg" />
-        
-                    <figcaption>半条命 2 ：第一章</figcaption>
-        
-                </figure>
+<img src="https://steamcdn-a.akamaihd.net/steam/apps/546560/library_600x900_2x.jpg" />
 
-                <figure class="card">
-        
-                    <img src="https://steamcdn-a.akamaihd.net/steam/apps/287390/library_600x900_2x.jpg" />
-        
-                    <figcaption>地铁：最后的曙光重制版</figcaption>
-        
-                </figure>
-        
-                <figure class="card">
-        
-                    <img src="https://steamcdn-a.akamaihd.net/steam/apps/403640/library_600x900_2x.jpg" />
-        
-                    <figcaption>耻辱 2</figcaption>
-        
-                </figure>
-            </div>
+<figcaption>半条命：爱莉克斯</figcaption>
 
-            <h2><strong>和我一起玩</strong></h2>
-        
-            <div class="cards">
+</figure>
 
-                <figure class="card">
-        
-                    <img src="https://steamcdn-a.akamaihd.net/steam/apps/4000/library_600x900_2x.jpg" />
-        
-                    <figcaption>Gmod</figcaption>
-        
-                </figure>
+<figure class="card">
 
-                <figure class="card">
-        
-                    <img src="https://steamcdn-a.akamaihd.net/steam/apps/240/library_600x900_2x.jpg" />
-        
-                    <figcaption>反恐精英：起源</figcaption>
-        
-                </figure>
+<img src="https://steamcdn-a.akamaihd.net/steam/apps/220/library_600x900_2x.jpg" />
 
-                <figure class="card">
-        
-                    <img src="https://steamcdn-a.akamaihd.net/steam/apps/440/library_600x900_2x.jpg" />
-        
-                    <figcaption>军团要塞 2</figcaption>
-        
-                </figure>
+<figcaption>半条命 2</figcaption>
 
-                <figure class="card">
-        
-                    <img src="https://steamcdn-a.akamaihd.net/steam/apps/550/library_600x900_2x.jpg" />
-        
-                    <figcaption>求生之路 2</figcaption>
-        
-                </figure>
-        
-                <figure class="card">
-        
-                    <img src="https://steamcdn-a.akamaihd.net/steam/apps/869480/library_600x900_2x.jpg" />
-        
-                    <figcaption>傻缺大乱斗：第三章</figcaption>
-        
-                </figure>
+</figure>
 
-                <figure class="card">
-        
-                    <img src="https://steamcdn-a.akamaihd.net/steam/apps/1012110/library_600x900_2x.jpg" />
-        
-                    <figcaption>军事冲突：越南</figcaption>
-        
-                </figure>   
+<figure class="card">
 
-                <figure class="card">
-        
-                    <img src="https://steamcdn-a.akamaihd.net/steam/apps/563560/library_600x900_2x.jpg" />
-        
-                    <figcaption>异形从生：反应下降</figcaption>
-        
-                </figure>
+<img src="https://steamcdn-a.akamaihd.net/steam/apps/412020/library_600x900_2x.jpg" />
 
+<figcaption>地铁：离去</figcaption>
 
+</figure>
 
+<figure class="card">
 
+<img src="https://steamcdn-a.akamaihd.net/steam/apps/362890/library_600x900_2x.jpg" />
 
-            </div>
-        
-            <!-- <h2><strong>新闻</strong></h2>
-        
-            <div class="news">
-        
-                <figure class="article">
-        
-                    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/Screenshot-20231125211946.png" />
-        
-                    <figcaption>
-        
-                        <h3>新物品推出</h3>
-        
-                        <p>
-        
-                            在今天的活动中，我们推出了新的物品，包括新的武器，新的枪械，新的配饰，新的饰品，新的皮肤，新的徽章。
-        
-                        </p>
-        
-                    </figcaption>
-                </figure>
-        
-            </div> -->
-        
-        </div>
+<figcaption>黑山：起源</figcaption>
+
+</figure>
+
+<figure class="card">
+
+<img src="https://steamcdn-a.akamaihd.net/steam/apps/1583720/library_600x900_2x.jpg" />
+
+<figcaption>熵：零 2</figcaption>
+
+</figure>
+
+<figure class="card">
+
+<img src="https://steamcdn-a.akamaihd.net/steam/apps/41700/library_600x900_2x.jpg" />
+
+<figcaption>潜行者：普里皮亚季的呼唤</figcaption>
+
+</figure>
+
+<figure class="card">
+
+<img src="https://steamcdn-a.akamaihd.net/steam/apps/380/library_600x900_2x.jpg" />
+
+<figcaption>半条命 2 ：第一章</figcaption>
+
+</figure>
+
+<figure class="card">
+
+<img src="https://steamcdn-a.akamaihd.net/steam/apps/287390/library_600x900_2x.jpg" />
+
+<figcaption>地铁：最后的曙光重制版</figcaption>
+
+</figure>
+
+<figure class="card">
+
+<img src="https://steamcdn-a.akamaihd.net/steam/apps/403640/library_600x900_2x.jpg" />
+
+<figcaption>耻辱 2</figcaption>
+
+</figure>
+</div>
+
+<h2><strong>和我一起玩</strong></h2>
+
+<div class="cards">
+
+<figure class="card">
+
+<img src="https://steamcdn-a.akamaihd.net/steam/apps/4000/library_600x900_2x.jpg" />
+
+<figcaption>Gmod</figcaption>
+
+</figure>
+
+<figure class="card">
+
+<img src="https://steamcdn-a.akamaihd.net/steam/apps/240/library_600x900_2x.jpg" />
+
+<figcaption>反恐精英：起源</figcaption>
+
+</figure>
+
+<figure class="card">
+
+<img src="https://steamcdn-a.akamaihd.net/steam/apps/440/library_600x900_2x.jpg" />
+
+<figcaption>军团要塞 2</figcaption>
+
+</figure>
+
+<figure class="card">
+
+<img src="https://steamcdn-a.akamaihd.net/steam/apps/550/library_600x900_2x.jpg" />
+
+<figcaption>求生之路 2</figcaption>
+
+</figure>
+
+<figure class="card">
+
+<img src="https://steamcdn-a.akamaihd.net/steam/apps/869480/library_600x900_2x.jpg" />
+
+<figcaption>傻缺大乱斗：第三章</figcaption>
+
+</figure>
+
+<figure class="card">
+
+<img src="https://steamcdn-a.akamaihd.net/steam/apps/1012110/library_600x900_2x.jpg" />
+
+<figcaption>军事冲突：越南</figcaption>
+
+</figure>   
+
+<figure class="card">
+
+<img src="https://steamcdn-a.akamaihd.net/steam/apps/563560/library_600x900_2x.jpg" />
+
+<figcaption>异形从生：反应下降</figcaption>
+
+</figure>
+
+</div>
+
+</div>
