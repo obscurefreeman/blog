@@ -28,12 +28,12 @@
       </div>
     {% endif %}
 
-    <script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
-      new Crate({
-        server: '806044973795246080',
-        channel: '806044973795246083',
-        color: '#00adb5'
-      })
+    <script>
+      BalloonEditor
+          .create( document.querySelector( '#editor' ) )
+          .catch( error => {
+              console.error( error );
+          } );
     </script>
 
     <div id="footer" class="page__footer">
