@@ -13,7 +13,3 @@
     <figcaption>{{ game_name }}</figcaption>
   </figure>
 {% endunless %}
-
-
-
-
