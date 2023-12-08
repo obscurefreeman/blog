@@ -3,27 +3,27 @@ layout: splash
 permalink: /
 hidden: true
 feature_row:
-  - image_path: /assets/images/mm-customizable-feature.png
+  - image_path: /assets/images/teaser/ofcc_mercy_is_blue_bg.jpg
     alt: "博客文章"
     title: "博客文章"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
+    excerpt: "查看我的最新文章！"
     url: "/posts/"
     btn_class: "btn--primary"
-    btn_label: "了解更多"
-  - image_path: /assets/images/mm-responsive-feature.png
+    btn_label: "开始阅读"
+  - image_path:/assets/images/teaser/deathmessage.jpg
     alt: "插件"
     title: "插件"
-    excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
+    excerpt: "了解我做过的插件。"
     url: "/addons/"
     btn_class: "btn--primary"
     btn_label: "了解更多"
-  - image_path: /assets/images/mm-free-feature.png
+  - image_path: /assets/images/teaser/tittle-tattle.jpg
     alt: "足迹"
     title: "足迹"
-    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
+    excerpt: "去看看我走过的地方。"
     url: "/memory/"
     btn_class: "btn--primary"
-    btn_label: "了解更多"      
+    btn_label: "去看看吧"      
 ---
 
 <div class="container">
