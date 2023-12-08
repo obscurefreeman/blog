@@ -62,6 +62,7 @@ transition: 0.3s;
 } */
 .news .card {
     margin: 14px;
+    /* margin: 16px; */
     width: 144px;
     height: 216px;
     overflow: hidden;
