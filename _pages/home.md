@@ -10,6 +10,13 @@ feature_row:
     url: "/posts/"
     btn_class: "btn--primary"
     btn_label: "开始阅读"
+  - image_path: /assets/images/teaser/deathmessage.jpg
+    alt: "插件"
+    title: "插件"
+    excerpt: "了解我做过的插件。"
+    url: "/addons/"
+    btn_class: "btn--primary"
+    btn_label: "了解更多"
 ---
 
 {% include feature_row %}
