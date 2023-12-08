@@ -1,0 +1,19 @@
+{% capture game_id %}{{ include.id }}{% endcapture %}
+{% capture game_name %}{{ include.name }}{% endcapture %}
+
+{% capture game_src %}
+    https://steamcdn-a.akamaihd.net/steam/apps/{{ game_id }}/library_600x900_2x.jpg
+{% endcapture %}
+{% assign game_src = game_src | strip %}
+
+
+{% unless game_src == "" %}
+  <figure class="card">
+    <img src="{{ game_src }}" />
+    <figcaption>{{ game_name }}</figcaption>
+  </figure>
+{% endunless %}
+
+
+
+
