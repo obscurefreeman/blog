@@ -17,6 +17,13 @@ feature_row:
     url: "/addons/"
     btn_class: "btn--primary"
     btn_label: "了解更多"
+  - image_path: /assets/images/teaser/tittle-tattle.jpg
+    alt: "足迹"
+    title: "足迹"
+    excerpt: "去看看我走过的地方。"
+    url: "/memory/"
+    btn_class: "btn--primary"
+    btn_label: "去看看吧"   
 ---
 
 {% include feature_row %}
