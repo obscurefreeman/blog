@@ -17,7 +17,7 @@ main:
   - title: "足迹"
     url: /memory/
   - title: "维基"
-    url: https://obscurefreeman.github.io/sourcewiki/
+    url: https://sourcewiki.netlify.app/
   - title: "视频"
     url: https://space.bilibili.com/523837807
 
