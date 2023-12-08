@@ -10,32 +10,6 @@ hidden: true
 </div>
 
 
-
-<h2><strong>新闻</strong></h2>
-
-<div class="news">
-
-<figure class="article">
-
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/Screenshot-20231125211946.png" />
-
-<figcaption>
-
-<h3>新物品推出</h3>
-
-<p>
-
-在今天的活动中，我们推出了新的物品，包括新的武器，新的枪械，新的配饰。
-
-</p>
-
-</figcaption>
-</figure>
-
-</div>
-
-
-
 <div class="wrapper">
 <h2><strong>游戏</strong></h2>
 
