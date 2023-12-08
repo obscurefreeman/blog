@@ -61,7 +61,7 @@ transform: translateZ(0);
 transition: 0.3s;
 } */
 .news .card {
-    margin: 15px;
+    margin: 14px;
     width: 144px;
     height: 216px;
     overflow: hidden;
