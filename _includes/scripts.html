@@ -40,8 +40,10 @@
 
 <script>
   BalloonEditor
-      .create( document.querySelector( '#editor' ) )
-      .catch( error => {
-          console.error( error );
-      } );
+    .create( document.querySelector( '#editor' ), {
+        toolbar: [ 'heading', '|', 'bold', 'italic', 'link', 'bulletedList', 'numberedList', 'blockQuote', '|','outdent', 'indent', '|','undo', 'redo', 'insertTable', 'mediaEmbed'],
+    } )
+    .catch( error => {
+        console.log( error );
+    } );
 </script>
