@@ -15,6 +15,7 @@
     steam://openurl/https://store.steampowered.com/app/{{ game_id }}/
   {% if game_click == "3" %}
     https://store.steampowered.com/app/{{ game_id }}/
+  {% endif %}
 {% endcapture %}
 {% assign game_link = game_link | strip %}
 
