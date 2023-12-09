@@ -5,6 +5,10 @@
 }
 
 :root {
+
+	--ck-color-button-on-color:									hsl(183, 100%, 35%);
+
+
     /* Overrides the border radius setting in the theme. */
     --ck-border-radius: 4px;
 
