@@ -22,7 +22,7 @@ CKEDITOR.InlineEditor.create(document.getElementById("editor"), {
             '-',
             'fontColor', 'fontBackgroundColor', 'highlight', '|',
             'alignment', '|',
-            'link', 'insertImage', 'blockQuote', 'insertTable', 'mediaEmbed', 'codeBlock', 'htmlEmbed', '|',
+            'link', 'insertImage', 'blockQuote', 'insertTable', 'mediaEmbed', 'htmlEmbed', '|',
             'specialCharacters', 'horizontalLine', 'pageBreak', 
         ],
     },
@@ -157,5 +157,6 @@ CKEDITOR.InlineEditor.create(document.getElementById("editor"), {
         'TextPartLanguage',
         'PageBreak',
         'TodoList',
+        'CodeBlock',
     ]
 });
