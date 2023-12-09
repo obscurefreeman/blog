@@ -8,8 +8,14 @@
 
 
 {% unless game_src == "" %}
-  <figure class="card">
+  <!-- <figure class="card">
     <img src="{{ game_src }}" />
     <figcaption>{{ game_name }}</figcaption>
-  </figure>
+  </figure> -->
+  <a href="steam://rungameid/{{ game_src }}">
+    <figure class="card">
+      <img src="{{ game_src }}" />
+      <figcaption>{{ game_name }}</figcaption>
+    </figure>
+  </a>
 {% endunless %}
