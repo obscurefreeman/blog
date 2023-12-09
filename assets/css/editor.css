@@ -6,6 +6,8 @@
 
 :root {
 
+    --ck-color-base-text: 										hsl(0, 0%, 98%);
+
 	--ck-color-button-on-color:									hsl(183, 100%, 35%);
 
     --ck-color-base-focus: 										hsl(183, 70%, 35%);
