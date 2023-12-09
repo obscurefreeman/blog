@@ -152,6 +152,10 @@ CKEDITOR.InlineEditor.create(document.getElementById("editor"), {
         'DocumentOutline',
         'FormatPainter',
         'TableOfContents',
-        'PasteFromOfficeEnhanced'
+        'PasteFromOfficeEnhanced',
+
+        'FontFamily',
+        'FontSize',
+        'TextPartLanguage',
     ]
 });
