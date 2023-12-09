@@ -20,12 +20,11 @@ CKEDITOR.InlineEditor.create(document.getElementById("editor"), {
             'outdent', 'indent', '|',
             'undo', 'redo',
             '-',
-            'fontSize', 'fontFamily', 'fontColor', 'fontBackgroundColor', 'highlight', '|',
+            'fontColor', 'fontBackgroundColor', 'highlight', '|',
             'alignment', '|',
             'link', 'insertImage', 'blockQuote', 'insertTable', 'mediaEmbed', 'codeBlock', 'htmlEmbed', '|',
             'specialCharacters', 'horizontalLine', 'pageBreak', '|',
-            'textPartLanguage', '|',
-            'sourceEditing'
+            'sourceEditing',
         ],
     },
     // Changing the language of the interface requires loading the language file using the <script> tag.
@@ -157,5 +156,6 @@ CKEDITOR.InlineEditor.create(document.getElementById("editor"), {
         'FontFamily',
         'FontSize',
         'TextPartLanguage',
+        'PageBreak',
     ]
 });
