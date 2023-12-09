@@ -11,9 +11,9 @@
 {% capture game_link %}
   {% if game_click == "1" %}
     steam://rungameid/{{ game_id }}
-  {% if game_click == "2" %}
+  {% elsif game_click == "2" %}
     steam://openurl/https://store.steampowered.com/app/{{ game_id }}/
-  {% if game_click == "3" %}
+  {% elsif game_click == "3" %}
     https://store.steampowered.com/app/{{ game_id }}/
   {% endif %}
 {% endcapture %}
@@ -29,16 +29,16 @@
   </a>
 {% endunless %} -->
 
-{% if game_click %}
+{% if game_click != 1 and game_click != 2 and game_click != 3 %}
+  <figure class="card">
+    <img src="{{ game_src }}" />
+    <figcaption>{{ game_name }}</figcaption>
+  </figure>
+{% else %}
   <a href="{{ game_link }}">
     <figure class="card">
       <img src="{{ game_src }}" />
       <figcaption>{{ game_name }}</figcaption>
     </figure>
   </a>
-{% else %}
-  <figure class="card">
-    <img src="{{ game_src }}" />
-    <figcaption>{{ game_name }}</figcaption>
-  </figure>
 {% endif %}
