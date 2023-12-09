@@ -29,7 +29,7 @@
   </a>
 {% endunless %} -->
 
-{% if game_link %}
+{% if game_link != "" %}
   <a href="{{ game_link }}">
     <figure class="card">
       <img src="{{ game_src }}" />
