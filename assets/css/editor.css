@@ -20,7 +20,7 @@
     /* -- Overrides generic colors. ------------------------------------------------------------- */
 
     --ck-color-base-foreground: var(--ck-custom-background);
-    --ck-color-focus-border: hsl(208, 90%, 62%);
+    --ck-color-focus-border: hsl(183, 100%, 35%);
     --ck-color-text: hsl(0, 0%, 98%);
     --ck-color-shadow-drop: hsla(0, 0%, 0%, 0.2);
     --ck-color-shadow-inner: hsla(0, 0%, 0%, 0.1);
@@ -108,5 +108,5 @@
 
     /* -- Overrides the default colors used by the ckeditor5-link package. ---------------------- */
 
-    --ck-color-link-default: hsl(190, 100%, 75%);
+    --ck-color-link-default: hsl(183, 100%, 35%);
 }
