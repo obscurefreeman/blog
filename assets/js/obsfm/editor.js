@@ -12,10 +12,9 @@ CKEDITOR.InlineEditor.create(document.getElementById("editor"), {
     // },
     toolbar: {
         items: [
-            'sourceEditing','exportPDF','exportWord', '|',
-            'findAndReplace', 'selectAll', '|',
+            'selectAll', 'findAndReplace', '|',
             'heading', '|',
-            'bold', 'italic', 'strikethrough', 'underline', 'code', 'subscript', 'superscript', 'removeFormat', '|',
+            'bold', 'italic', 'strikethrough', 'underline', 'code', '|',
             'bulletedList', 'numberedList', 'todoList', '|',
             'outdent', 'indent', '|',
             'undo', 'redo',
@@ -23,7 +22,7 @@ CKEDITOR.InlineEditor.create(document.getElementById("editor"), {
             'fontColor', 'fontBackgroundColor', 'highlight', '|',
             'alignment', '|',
             'link', 'insertImage', 'blockQuote', 'insertTable', 'mediaEmbed', 'htmlEmbed', '|',
-            'specialCharacters', 'horizontalLine', 'pageBreak', 
+            'subscript', 'superscript', 'removeFormat', 'specialCharacters', 'horizontalLine', '|', 'sourceEditing','exportPDF','exportWord',
         ],
     },
     // Changing the language of the interface requires loading the language file using the <script> tag.
