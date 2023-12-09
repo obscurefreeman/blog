@@ -5,7 +5,7 @@ CKEDITOR.BalloonEditor.create(document.getElementById("editor"), {
     language: 'zh-cn',
     blockToolbar: {
         items: [
-            'bold',
+            'sourceEditing',
             'italic',
             'link'
         ],
@@ -27,7 +27,6 @@ CKEDITOR.BalloonEditor.create(document.getElementById("editor"), {
             'textPartLanguage', '|',
             'sourceEditing'
         ],
-        shouldNotGroupWhenFull: true
     },
     // Changing the language of the interface requires loading the language file using the <script> tag.
     // language: 'es',
