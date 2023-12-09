@@ -29,16 +29,16 @@
   </a>
 {% endunless %} -->
 
-{% if game_click != 1 and game_click != 2 and game_click != 3 %}
-  <figure class="card">
-    <img src="{{ game_src }}" />
-    <figcaption>{{ game_name }}</figcaption>
-  </figure>
-{% else %}
+{% if game_link %}
   <a href="{{ game_link }}">
     <figure class="card">
       <img src="{{ game_src }}" />
       <figcaption>{{ game_name }}</figcaption>
     </figure>
   </a>
+{% else %}
+  <figure class="card">
+    <img src="{{ game_src }}" />
+    <figcaption>{{ game_name }}</figcaption>
+  </figure>
 {% endif %}
