@@ -12,14 +12,13 @@ CKEDITOR.InlineEditor.create(document.getElementById("editor"), {
     // },
     toolbar: {
         items: [
-            'selectAll', 'findAndReplace', '|',
+            'selectAll', '|', 'undo', 'redo', 'findAndReplace', '|',
             'heading', '|',
             'bold', 'italic', 'strikethrough', 'underline', 'code', '|',
-            'bulletedList', 'numberedList', 'todoList', '|',
-            'outdent', 'indent', '|',
-            'undo', 'redo',
-            '-',
             'fontColor', 'fontBackgroundColor', 'highlight', '|',
+            'bulletedList', 'numberedList', '|',
+            'outdent', 'indent', '|',
+            '-',
             'alignment', '|',
             'link', 'insertImage', 'blockQuote', 'insertTable', 'mediaEmbed', 'htmlEmbed', '|',
             'subscript', 'superscript', 'removeFormat', 'specialCharacters', 'horizontalLine', '|', 'sourceEditing','exportPDF','exportWord',
