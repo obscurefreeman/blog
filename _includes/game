@@ -1,21 +1,43 @@
 {% capture game_id %}{{ include.id }}{% endcapture %}
 {% capture game_name %}{{ include.name }}{% endcapture %}
+{% capture game_click %}{{ include.click }}{% endcapture %}
+
 
 {% capture game_src %}
     https://steamcdn-a.akamaihd.net/steam/apps/{{ game_id }}/library_600x900_2x.jpg
 {% endcapture %}
 {% assign game_src = game_src | strip %}
 
+{% capture game_link %}
+  {% if game_click == "1" %}
+    steam://rungameid/{{ game_id }}
+  {% if game_click == "2" %}
+    steam://openurl/https://store.steampowered.com/app/{{ game_id }}/
+  {% if game_click == "3" %}
+    https://store.steampowered.com/app/{{ game_id }}/
+{% endcapture %}
+{% assign game_link = game_link | strip %}
 
-{% unless game_src == "" %}
-  <!-- <figure class="card">
-    <img src="{{ game_src }}" />
-    <figcaption>{{ game_name }}</figcaption>
-  </figure> -->
+
+<!-- {% unless game_src == "" %}
   <a href="steam://rungameid/{{ game_id }}">
     <figure class="card">
       <img src="{{ game_src }}" />
       <figcaption>{{ game_name }}</figcaption>
     </figure>
   </a>
-{% endunless %}
+{% endunless %} -->
+
+{% if game_click %}
+  <a href="{{ game_link }}">
+    <figure class="card">
+      <img src="{{ game_src }}" />
+      <figcaption>{{ game_name }}</figcaption>
+    </figure>
+  </a>
+{% else %}
+  <figure class="card">
+    <img src="{{ game_src }}" />
+    <figcaption>{{ game_name }}</figcaption>
+  </figure>
+{% endif %}
