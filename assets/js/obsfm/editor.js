@@ -1,7 +1,7 @@
 
 // This sample still does not showcase all CKEditor&nbsp;5 features (!)
 // Visit https://ckeditor.com/docs/ckeditor5/latest/features/index.html to browse all the features.
-CKEDITOR.ClassicEditor.create(document.getElementById("editor"), {
+CKEDITOR.InlineEditor.create(document.getElementById("editor"), {
     language: 'zh-cn',
     toolbar: {
         items: [
