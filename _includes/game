@@ -12,7 +12,7 @@
     <img src="{{ game_src }}" />
     <figcaption>{{ game_name }}</figcaption>
   </figure> -->
-  <a href="steam://rungameid/{{ game_src }}">
+  <a href="steam://rungameid/{{ game_id }}">
     <figure class="card">
       <img src="{{ game_src }}" />
       <figcaption>{{ game_name }}</figcaption>
