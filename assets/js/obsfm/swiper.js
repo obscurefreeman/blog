@@ -44,4 +44,7 @@ slides.forEach((slide) => {
   const colors = getRandomColors();
   const gradient = `linear-gradient(-45deg, ${colors[0]}, ${colors[1]}, ${colors[2]}, ${colors[3]})`;
   slide.style.background = gradient;
+  slide.style.backgroundSize = '400% 400%';
+  slide.style.animation = 'gradient 15s ease infinite';
+  slide.style.height = '100vh';
 });
