@@ -29,6 +29,10 @@
 	}
 } */
 
+.parallax-bg {
+  background: linear-gradient(-45deg, #1443a0, #490094);
+}
+
 .swiper-slide .title {
   font-size: 41px;
   font-weight: 300;
