@@ -29,15 +29,34 @@ var swiper = new Swiper(".mySwiper", {
 // 获取所有的滑块元素
 const slides = document.querySelectorAll('.swiper-slide');
 
-// 随机生成四个颜色
+// // 随机生成四个颜色
+// function getRandomColors() {
+//   const colors = [];
+//   for (let i = 0; i < 4; i++) {
+//     const color = '#' + Math.floor(Math.random() * 16777215).toString(16);
+//     colors.push(color);
+//   }
+//   return colors;
+// }
+
+// 随机生成蓝色且较暗的颜色
 function getRandomColors() {
   const colors = [];
   for (let i = 0; i < 4; i++) {
-    const color = '#' + Math.floor(Math.random() * 16777215).toString(16);
+    const color = getRandomDarkBlueColor();
     colors.push(color);
   }
   return colors;
 }
+
+// 生成蓝色且较暗的随机颜色
+function getRandomDarkBlueColor() {
+  const hue = Math.floor(Math.random() * 240); // 0-240之间的随机色相
+  const saturation = Math.floor(Math.random() * 50) + 50; // 50-100之间的随机饱和度
+  const lightness = Math.floor(Math.random() * 30) + 20; // 20-50之间的随机亮度
+  return `hsl(${hue}, ${saturation}%, ${lightness}%)`;
+}
+
 
 // 为每个滑块设置随机的渐变颜色
 slides.forEach((slide) => {
