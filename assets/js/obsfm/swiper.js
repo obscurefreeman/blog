@@ -39,4 +39,9 @@ function getRandomColors() {
   return colors;
 }
 
-// 为每个滑块设置
+// 为每个滑块设置随机的渐变颜色
+slides.forEach((slide) => {
+  const colors = getRandomColors();
+  const gradient = `linear-gradient(-45deg, ${colors[0]}, ${colors[1]}, ${colors[2]}, ${colors[3]})`;
+  slide.style.background = gradient;
+});
