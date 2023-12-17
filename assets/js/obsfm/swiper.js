@@ -60,7 +60,7 @@ function getRandomDarkBlueColor() {
 // 为每个滑块设置随机的渐变颜色
 slides.forEach((slide) => {
   const colors = getRandomColors();
-  const gradient = `linear-gradient(-45deg, ${colors[1]}, ${colors[2]})`;
+  const gradient = `linear-gradient(-45deg, ${colors[0]} 0%, ${colors[0]} 45%, ${colors[1]} 55%, ${colors[1]} 100%)`;
   slide.style.background = gradient;
   slide.style.backgroundSize = '400% 400%';
   slide.style.animation = 'gradient 15s ease infinite';
