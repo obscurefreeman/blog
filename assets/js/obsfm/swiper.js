@@ -27,7 +27,7 @@ var swiper = new Swiper(".mySwiper", {
 });
 
 // 获取所有的滑块元素
-const slides = document.querySelectorAll('.swiper-slide');
+// const slides = document.querySelectorAll('.swiper-slide');
 
 // // 随机生成四个颜色
 // function getRandomColors() {
