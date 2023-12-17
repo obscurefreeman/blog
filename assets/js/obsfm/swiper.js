@@ -41,12 +41,9 @@ const slides = document.querySelectorAll('.swiper-slide');
 
 // 随机生成蓝色且较暗的颜色
 function getRandomColors() {
-  const colors = [];
-  for (let i = 0; i < 4; i++) {
-    const color = getRandomDarkBlueColor();
-    colors.push(color);
-  }
-  return colors;
+  const color1 = getRandomDarkBlueColor();
+  const color2 = getRandomDarkBlueColor();
+  return [color1, color2];
 }
 
 // 生成蓝色且较暗的随机颜色
@@ -61,7 +58,7 @@ function getRandomDarkBlueColor() {
 // 为每个滑块设置随机的渐变颜色
 slides.forEach((slide) => {
   const colors = getRandomColors();
-  const gradient = `linear-gradient(-45deg, ${colors[0]}, ${colors[1]}, ${colors[2]}, ${colors[3]})`;
+  const gradient = `linear-gradient(-45deg, ${colors[0]}, ${colors[1]})`;
   slide.style.background = gradient;
   slide.style.backgroundSize = '200% 200%';
   slide.style.animation = 'gradient 15s ease infinite';
