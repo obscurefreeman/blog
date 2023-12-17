@@ -36,7 +36,7 @@
   width: 130%;
   height: 100%;
   -webkit-background-size: cover;
-  background: linear-gradient(-45deg, #1443a0, #490094);
+  background: linear-gradient(-45deg, #1443a0, #490094, #ff0000, #ffff00);
   background-size: cover;
   background-position: center;
 }
