@@ -40,9 +40,13 @@ const slides = document.querySelectorAll('.swiper-slide');
 // }
 
 const colorCombinations = [
-  ['#ff0000', '#00ff00'],
-  ['#0000ff', '#ffff00'],
-  ['#ff00ff', '#00ffff']
+  ['#0041c4', '#490094'],
+  ['#4e0085', '#a56100'],
+  ['#0041c4', '#490094'],
+  ['#002b80', '#5c007d'],
+  ['#002b80', '#6a0066'],
+  ['#003366', '#660066'],
+  ['#002b80', '#4d0080'],
 ];
 
 function getRandomColors() {
