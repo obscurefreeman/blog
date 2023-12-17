@@ -35,7 +35,9 @@
   top: 0;
   width: 130%;
   height: 100%;
-  background: linear-gradient(-45deg, #1443a0, #490094);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
 }
 
 .swiper-slide .title {
