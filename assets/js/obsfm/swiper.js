@@ -26,20 +26,17 @@ var swiper = new Swiper(".mySwiper", {
   }
 });
 
-// function getRandomColor() {
-//   var letters = '0123456789ABCDEF';
-//   var color = '#';
-//   for (var i = 0; i < 6; i++) {
-//     color += letters[Math.floor(Math.random() * 16)];
-//   }
-//   return color;
-// }
+// 获取所有的滑块元素
+const slides = document.querySelectorAll('.swiper-slide');
 
-// var swiperSlides = document.getElementsByClassName('swiper-slide');
-// for (var i = 0; i < swiperSlides.length; i++) {
-//   var colors = [];
-//   for (var j = 0; j < 4; j++) {
-//     colors.push(getRandomColor());
-//   }
-//   swiperSlides[i].style.background = 'linear-gradient(-45deg, ' + colors.join(', ') + ')';
-// }
+// 随机生成四个颜色
+function getRandomColors() {
+  const colors = [];
+  for (let i = 0; i < 4; i++) {
+    const color = '#' + Math.floor(Math.random() * 16777215).toString(16);
+    colors.push(color);
+  }
+  return colors;
+}
+
+// 为每个滑块设置
