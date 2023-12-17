@@ -26,20 +26,20 @@ var swiper = new Swiper(".mySwiper", {
   }
 });
 
-function getRandomColor() {
-  var letters = '0123456789ABCDEF';
-  var color = '#';
-  for (var i = 0; i < 6; i++) {
-    color += letters[Math.floor(Math.random() * 16)];
-  }
-  return color;
-}
+// function getRandomColor() {
+//   var letters = '0123456789ABCDEF';
+//   var color = '#';
+//   for (var i = 0; i < 6; i++) {
+//     color += letters[Math.floor(Math.random() * 16)];
+//   }
+//   return color;
+// }
 
-var swiperSlides = document.getElementsByClassName('swiper-slide');
-for (var i = 0; i < swiperSlides.length; i++) {
-  var colors = [];
-  for (var j = 0; j < 4; j++) {
-    colors.push(getRandomColor());
-  }
-  swiperSlides[i].style.background = 'linear-gradient(-45deg, ' + colors.join(', ') + ')';
-}
+// var swiperSlides = document.getElementsByClassName('swiper-slide');
+// for (var i = 0; i < swiperSlides.length; i++) {
+//   var colors = [];
+//   for (var j = 0; j < 4; j++) {
+//     colors.push(getRandomColor());
+//   }
+//   swiperSlides[i].style.background = 'linear-gradient(-45deg, ' + colors.join(', ') + ')';
+// }
