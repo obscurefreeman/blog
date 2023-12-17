@@ -5,6 +5,7 @@ var swiper = new Swiper(".mySwiper", {
   mousewheel: true,
   lazy: true,
   loop: true,
+  parallax: true,
   centeredSlides: true,
   autoplay: {
     delay: 2500,
