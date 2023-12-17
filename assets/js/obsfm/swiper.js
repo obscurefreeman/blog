@@ -39,19 +39,15 @@ const slides = document.querySelectorAll('.swiper-slide');
 //   return colors;
 // }
 
-// 随机生成蓝色且较暗的颜色
-function getRandomColors() {
-  const color1 = getRandomDarkBlueColor();
-  const color2 = getRandomDarkBlueColor();
-  return [color1, color2];
-}
+const colorCombinations = [
+  ['#ff0000', '#00ff00'],
+  ['#0000ff', '#ffff00'],
+  ['#ff00ff', '#00ffff']
+];
 
-// 生成蓝色且较暗的随机颜色
-function getRandomDarkBlueColor() {
-  const hue = Math.floor(Math.random() * 240); // 0-240之间的随机色相
-  const saturation = Math.floor(Math.random() * 50) + 50; // 50-100之间的随机饱和度
-  const lightness = Math.floor(Math.random() * 30) + 20; // 20-50之间的随机亮度
-  return `hsl(${hue}, ${saturation}%, ${lightness}%)`;
+function getRandomColors() {
+  const randomIndex = Math.floor(Math.random() * colorCombinations.length);
+  return colorCombinations[randomIndex];
 }
 
 
@@ -60,7 +56,4 @@ slides.forEach((slide) => {
   const colors = getRandomColors();
   const gradient = `linear-gradient(-45deg, ${colors[0]}, ${colors[1]})`;
   slide.style.background = gradient;
-  // slide.style.backgroundSize = '200% 200%';
-  // slide.style.animation = 'gradient 15s ease infinite';
-  // slide.style.height = '100vh';
 });
