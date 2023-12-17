@@ -1,16 +1,21 @@
-gsap.registerPlugin(ScrollTrigger);
+const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'vertical',
+  loop: true,
 
-const textElements = gsap.utils.toArray('.maintext');
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
 
-textElements.forEach(maintext => {
-  gsap.to(maintext, {
-    backgroundSize: '100%',
-    ease: 'none',
-    scrollTrigger: {
-      trigger: text,
-      start: 'center 80%',
-      end: 'center 20%',
-      scrub: true,
-    },
-  });
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
 });
