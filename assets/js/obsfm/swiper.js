@@ -39,29 +39,46 @@ const slides = document.querySelectorAll('.swiper-slide');
 //   return colors;
 // }
 
-const colorCombinations = [
-  ['#0041c4', '#490094'],
-  ['#4e0085', '#a56100'],
-  ['#0041c4', '#490094'],
-  ['#002b80', '#800080'],
-  ['#003366', '#660066'],
-  ['#0041c4', '#490094'],
-  ['#002b80', '#800080'],
-  ['#003366', '#660066'],
-  ['#0041c4', '#006633'],
-  ['#002b80', '#004d33'],
-  ['#003366', '#006633'],
-];
-
-function getRandomColors() {
-  const randomIndex = Math.floor(Math.random() * colorCombinations.length);
-  return colorCombinations[randomIndex];
-}
 
 
-// 为每个滑块设置随机的渐变颜色
-slides.forEach((slide) => {
-  const colors = getRandomColors();
-  const gradient = `linear-gradient(-45deg, ${colors[0]}, ${colors[1]})`;
-  slide.style.background = gradient;
-});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const colorCombinations = [
+//   ['#0041c4', '#490094'],
+//   ['#4e0085', '#a56100'],
+//   ['#0041c4', '#490094'],
+//   ['#002b80', '#800080'],
+//   ['#003366', '#660066'],
+//   ['#0041c4', '#490094'],
+//   ['#002b80', '#800080'],
+//   ['#003366', '#660066'],
+//   ['#0041c4', '#006633'],
+//   ['#002b80', '#004d33'],
+//   ['#003366', '#006633'],
+// ];
+
+// function getRandomColors() {
+//   const randomIndex = Math.floor(Math.random() * colorCombinations.length);
+//   return colorCombinations[randomIndex];
+// }
+
+
+// // 为每个滑块设置随机的渐变颜色
+// slides.forEach((slide) => {
+//   const colors = getRandomColors();
+//   const gradient = `linear-gradient(-45deg, ${colors[0]}, ${colors[1]})`;
+//   slide.style.background = gradient;
+// });
