@@ -114,6 +114,10 @@ addons:
         url: /addons/2023-11-2-CSGO人机/
       - title: "死亡消息"
         url: /addons/2023-11-3-死亡消息/
+      - title: "晦涩弗里曼的迷你游戏库"
+        url: /addons/2024-1-14-晦涩弗里曼的迷你游戏库/
+      - title: "NPC 等级系统"
+        url: /addons/2024-11-12-NPC 等级系统/
   - title: 我的地图
     children:
       - title: "装甲核心边境设施"
