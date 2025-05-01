@@ -1,33 +1,70 @@
 /* ==========================================================================
-   Modern Dark skin
+   OfDark skin
    ========================================================================== */
 
 /* Colors */
-$background-color: #1a1a1a !default;  // 更深的背景色
-$text-color: #f5f5f5 !default;  // 更亮的文字颜色
-$primary-color: #6c5ce7 !default;  // 使用紫色作为主色调，更现代化
-$border-color: mix(#fff, $background-color, 15%) !default;  // 更柔和的边框颜色
-$code-background-color: mix(#000, $background-color, 20%) !default;  // 代码块背景更深
-$code-background-color-dark: mix(#000, $background-color, 25%) !default;
-$form-background-color: mix(#000, $background-color, 20%) !default;
-$footer-background-color: mix(#000, $background-color, 35%) !default;
-$link-color: mix($primary-color, $text-color, 50%) !default;  // 链接颜色更突出
-$link-color-hover: mix(#fff, $link-color, 30%) !default;  // 悬停效果更明显
-$link-color-visited: mix(#000, $link-color, 20%) !default;
+$background-color: #252a34 !default;
+$text-color: #eeeeee !default;
+$primary-color: #00adb5 !default;
+$border-color: mix(#fff, $background-color, 20%) !default;
+$code-background-color: mix(#000, $background-color, 15%) !default;
+$code-background-color-dark: mix(#000, $background-color, 20%) !default;
+$form-background-color: mix(#000, $background-color, 15%) !default;
+$footer-background-color: mix(#000, $background-color, 25%) !default;
+$link-color: $primary-color !default;
+$link-color-hover: mix(#fff, $link-color, 25%) !default;
+$link-color-visited: mix(#000, $link-color, 25%) !default;
 $masthead-link-color: $text-color !default;
-$masthead-link-color-hover: mix(#000, $text-color, 15%) !default;
-$navicon-link-color-hover: mix(#000, $background-color, 25%) !default;
+$masthead-link-color-hover: mix(#000, $text-color, 20%) !default;
+$navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
+
+/* notices */
+$notice-background-mix: 70% !default;
+$code-notice-background-mix: 80% !default;
+
+/* ofdark syntax highlighting (base16) */
+$base00: #252a34 !default;
+$base01: #393e46 !default;
+$base02: #4a4f57 !default;
+$base03: #6a6f77 !default;
+$base04: #8a8f97 !default;
+$base05: #aab0b7 !default;
+$base06: #cacfd7 !default;
+$base07: #eaeef7 !default;
+$base08: #ff6b6b !default;
+$base09: #ff9f43 !default;
+$base0a: #feca57 !default;
+$base0b: #1dd1a1 !default;
+$base0c: #00d2d3 !default;
+$base0d: #54a0ff !default;
+$base0e: #f368e0 !default;
+$base0f: #ff9ff3 !default;
 
 .author__urls.social-icons i,
 .author__urls.social-icons .svg-inline--fa,
 .page__footer-follow .social-icons i,
 .page__footer-follow .social-icons .svg-inline--fa  {
   color: inherit;
-  transition: color 0.3s ease;  // 添加平滑的过渡效果
+}
+
+.page__content {
+  a,
+  a:visited {
+    color: inherit;
+  }
+}
+
+/* next/previous buttons */
+.pagination--pager {
+  color: $text-color;
+  background-color: $primary-color;
+  border-color: transparent;
+
+  &:visited {
+    color: $text-color;
+  }
 }
 
 .ais-search-box .ais-search-box--input {
   background-color: $form-background-color;
-  border-radius: 4px;  // 添加圆角
-  transition: all 0.3s ease;  // 添加交互效果
 }
