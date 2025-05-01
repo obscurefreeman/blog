@@ -1,6 +1,6 @@
 ---
-title: 插件
-excerpt: "让我们来看看有什么新鲜的模组！"
+title: 作品
+excerpt: "瞧瞧我最近做了什么吧！"
 layout: collection
 permalink: /addons/
 collection: addons

@@ -1,6 +1,6 @@
 ---
 title: 足迹
-excerpt: "你失去了哪些？你得到了哪些？"
+excerpt: "足迹就是你失去的一切。"
 layout: collection
 permalink: /memory/
 collection: memory
