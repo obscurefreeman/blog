@@ -49,7 +49,7 @@ comments:
     category_id          : "DIC_kwDOJqzHhM4CbO-O" # Shown during giscus setup at https://giscus.app
     discussion_term      : "title" # "pathname" (default), "url", "title", "og:title"
     reactions_enabled    : "0" # '1' for enabled (default), '0' for disabled
-    theme                : "dark_dimmed" # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
+    theme                : "dark" # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
     lang                 : "zh-CN"
   staticman:
     branch               : # "master"
