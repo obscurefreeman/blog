@@ -39,6 +39,27 @@
   })
 </script>
 
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.highlight').forEach(function(block) {
+      const copyBtn = document.createElement('button');
+      copyBtn.className = 'copy-btn';
+      copyBtn.innerHTML = '<i class="far fa-copy"></i>';
+      block.appendChild(copyBtn);
+
+      copyBtn.addEventListener('click', function() {
+        const code = block.querySelector('pre').innerText;
+        navigator.clipboard.writeText(code).then(function() {
+          copyBtn.innerHTML = '<i class="fas fa-check"></i>';
+          setTimeout(function() {
+            copyBtn.innerHTML = '<i class="far fa-copy"></i>';
+          }, 2000);
+        });
+      });
+    });
+  });
+</script>
+
 <!-- 这是编辑器相关的代码 -->
 <!-- <script src="assets/js/obsfm/editor.js"></script> -->
 <!-- 这是备用的，别管他 -->
