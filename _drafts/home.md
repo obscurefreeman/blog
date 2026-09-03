@@ -13,10 +13,17 @@ feature_row:
   - image_path: /assets/images/teaser/deathmessage.jpg
     alt: "插件探索"
     title: "插件探索"
-    excerpt: "插件的力量！让你的游戏体验与众不同。"
+    excerpt: "浏览我制作的Gmod插件。"
     url: "/addons/"
     btn_class: "btn--primary"
     btn_label: "了解更多"
+  - image_path: /assets/images/teaser/railroad.png
+    alt: "观看视频"
+    title: "观看视频"
+    excerpt: "浏览我的B站主页。"
+    url: "https://space.bilibili.com/523837807"
+    btn_class: "btn--primary"
+    btn_label: "开始观看"
 ---
 
 {% include feature_row %}

@@ -1,24 +1,10 @@
 var texts = [
-    "岁月悠悠，衰微只及肌肤；热忱抛却，颓唐必至灵魂。",
-    "希望你的管理轨道引导你，某天去向更好的地方。",
-    "世上所有小恐龙,都会面临大灭绝。",
     "那块蛋糕是个谎言。",
-    "“这不是机器人茶会，这是机器人战争！”",
-    "软肋。",
-    "准备迎接出乎意料的结果吧。",
 ];
 
 var textsnight = [
-    "该睡觉了，弗里曼博士，该睡觉了。",
-    "是时候把一切抛于脑后了。",
     "这么晚了还在浏览博客吗？",
-    "你度过了糟糕的一天吗？充实又苦涩？",
 ];
-
-// function getRandomText() {
-//     var randomIndex = Math.floor(Math.random() * texts.length);
-//     return texts[randomIndex];
-// }
 
 function getRandomText() {
     var currentHour = new Date().getHours();

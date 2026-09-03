@@ -5,7 +5,7 @@ let colors = [
     "#cfa926",
     "#fccd0c",
     "#1c1c1c",
-    "#699EA0"
+    "#005cc5"
 ];
 
 let height = 40;
