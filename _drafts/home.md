@@ -17,13 +17,6 @@ feature_row:
     url: "/addons/"
     btn_class: "btn--primary"
     btn_label: "了解更多"
-  - image_path: /assets/images/teaser/tittle-tattle.jpg
-    alt: "回望足迹"
-    title: "回望足迹"
-    excerpt: "去看看我走过的地方，探寻我留下的足迹。"
-    url: "/memory/"
-    btn_class: "btn--primary"
-    btn_label: "开始旅行"   
 ---
 
 {% include feature_row %}

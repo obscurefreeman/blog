@@ -12,10 +12,6 @@ main:
   #   url: /sitemap/
   - title: "插件"
     url: /addons/
-  - title: "杂谈"
-    url: /tittle-tattle/
-  - title: "足迹"
-    url: /memory/
   - title: "维基"
     url: https://sourcewiki.netlify.app/
   - title: "视频"
@@ -66,18 +62,6 @@ docs:
         url: /docs/stylesheets/
       - title: "JavaScript"
         url: /docs/javascript/
-
-tittle-tattle:
-  - title: 游戏杂谈
-    children:
-      - title: "《熵：零2》剧情解读"
-        url: /tittle-tattle/01-《熵：零2》剧情解读/
-      - title: "《傻缺大乱斗》武器秘事"
-        url: /tittle-tattle/02-《傻缺大乱斗》武器秘事/
-      - title: "《沤逆之蓝》剧情解读"
-        url: /tittle-tattle/03-《沤逆之蓝》剧情解读/
-      - title: "《叛乱》背后的故事"
-        url: /tittle-tattle/04-《叛乱》背后的故事/
 
 # addons:
 #   - title: 我的插件
